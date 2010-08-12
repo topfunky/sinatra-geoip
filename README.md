@@ -23,3 +23,21 @@ View JSON data for an IP address with:
 
     http://localhost:3000/geoip/api/locate.json?ip=24.18.211.123
 
+    {
+        latitude: 47.684700012207
+        country_name: "United States"
+        area_code: 206
+        city: "Seattle"
+        region: "WA"
+        longitude: -122.384803771973
+        postal_code: "98117"
+        country_code3: "USA"
+        country_code: "US"
+        dma_code: 819
+    }
+
+# Legal
+
+This product includes GeoLite data created by MaxMind, available from http://www.maxmind.com/.
+
+
