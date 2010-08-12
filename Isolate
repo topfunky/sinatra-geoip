@@ -1,0 +1,16 @@
+gem "sinatra"
+gem "geoip_city"
+gem "json"
+
+env :development do
+  gem "shotgun"
+end
+
+env :test do
+end
+
+env :production do
+
+end
+
+

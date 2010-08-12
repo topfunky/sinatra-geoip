@@ -1,0 +1,5 @@
+if [[ -s "/Users/topfunky/.rvm/environments/ree-1.8.7-2010.02@geoip" ]] ; then
+  . "/Users/topfunky/.rvm/environments/ree-1.8.7-2010.02@geoip"
+else
+  rvm --create use  "ree-1.8.7-2010.02@geoip"
+fi
